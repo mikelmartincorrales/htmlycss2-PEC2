@@ -1,22 +1,86 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
-  </head>
-  <body>
-    <img src="assets/images/logo.png" alt="Universitat Oberta de Catalunya" class="uoc-logo">
-    <h1 class="uoc-title">Hello, UOC!</h1>
-    <p>
-      This is a starter template for the Advanced HTML and CSS Tools courses
-      from the Master's Program in Multimedia Applications and the Master's
-      Program in Web App and Website Development at the Universitat Oberta de
-      Catalunya.
-    </p>
 
-    <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet" />
+
+  <title>Musikalean - Portada</title>
+</head>
+
+<body>
+  <header class="container mt-5">
+    <div class="row justify-content-center"><img src="./assets/images/logo.png" alt="logo"></div>
+    <nav class="row justify-content-center mt-3">
+      <div class="col-12 col-md-auto text-center">
+        <a href="#">Portada</a>
+      </div>
+      <div class="col-12 col-md-auto text-center">
+        <a href="#">Grupos</a>
+      </div>
+      <div class="col-12 col-md-auto text-center">
+        <a href="#">Programa</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container mt-5">
+      <div class="news-grid">
+        <div class="news-item news-item-1">
+          <img src="./assets/images/noticia-1.jpg" alt="">
+          <h1>Título Noticia 1</h1>
+          <div class="news-item-overlay"><a href=""> <button>Leer más</button></a>
+          </div>
+        </div>
+        <div class="news-item news-item-2">
+          <img src="./assets/images/noticia-2.jpg" alt="">
+          <h1>Título Noticia 2</h1>
+          <div class="news-item-overlay"><button>Leer más</button>
+          </div>
+        </div>
+        <div class="news-item news-item-3">
+          <img src="./assets/images/noticia-3.jpg" alt="">
+          <h1>Título Noticia 3</h1>
+          <div class="news-item-overlay"><button>Leer más</button>
+          </div>
+        </div>
+        <div class="news-item news-item-4">
+          <img src="./assets/images/noticia-4.jpg" alt="">
+          <h1>Título Noticia 4</h1>
+          <div class="news-item-overlay"><button>Leer más</button>
+          </div>
+        </div>
+        <div class="news-item news-item-5">
+          <img src="./assets/images/noticia-1.jpg" alt="">
+          <h1>Título Noticia 5</h1>
+          <div class="news-item-overlay"><button>Leer más</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="mt-5">
+    <div class="container mt-2 pt-4">
+      <div class="row justify-content-center py-2">
+        <img src="./assets/images/logo-inv.png" alt="logo">
+      </div>
+      <div class="row justify-content-center mt-2">
+        <a href="#"><i class="fas fa-envelope"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="row justify-content-center mt-5">
+        <p>© Musikalean 2019</p>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+
 </html>
