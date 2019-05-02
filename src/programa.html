@@ -8,8 +8,17 @@
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
-    <title>Musikalean - Portada</title>
+    <title>Musikalean - Programa</title>
 </head>
 
 <body>
@@ -28,7 +37,42 @@
         </nav>
     </header>
     <main>
-
+        <div class="container mt-4">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button type="button" class="btn btn-link collapsed" data-toggle="collapse"
+                                data-target="#collapseOne">2. What is Bootstrap?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p>Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier
+                                web development. It is a collection of CSS and HTML conventions. <a
+                                    href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/"
+                                    target="_blank">Learn more.</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button type="button" class="btn btn-link collapsed" data-toggle="collapse"
+                                data-target="#collapseTwo">2. What is Bootstrap?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p>Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier
+                                web development. It is a collection of CSS and HTML conventions. <a
+                                    href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/"
+                                    target="_blank">Learn more.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="mt-5">
         <div class="container mt-2 pt-4">
