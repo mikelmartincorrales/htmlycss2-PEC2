@@ -23,6 +23,7 @@
 @import "layouts/home";
 @import "layouts/noticia";
 @import "layouts/grupos";
+@import "layouts/programa";
 
 /**
  * Do NOT include anything else in this file!
@@ -37,6 +38,7 @@ body {
 h1,h2,h3,h4,h5{
     font-family: $font-family-title;
 }
+
 nav {
     a{
         font-family: $font-family-title;
@@ -45,7 +47,7 @@ nav {
     }
     a:hover{
         text-decoration: none;
-        color: $link-hover-color;
+        color: $primary-color;
     }
     a:before {
         content: "";
@@ -67,7 +69,13 @@ nav {
         transform: scaleX(1);
     }
     .selected{
-        color: lightgrey;
+        a{
+            color: brown;
+        }
+        a:hover:before {
+            visibility: hidden;
+        }
+        
     }
 }
 
