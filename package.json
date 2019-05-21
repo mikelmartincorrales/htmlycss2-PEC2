@@ -9,7 +9,8 @@
     "clean": "rimraf dist .cache .cache-loader",
     "dev": "npm-run-all clean parcel:dev",
     "build": "npm-run-all clean parcel:build",
-    "test": "echo 'Everything is working as expected ✅\nStart working on your project by running \\033[1mnpm start\\033[0m'"
+    "test": "echo 'Everything is working as expected ✅\nStart working on your project by running \\033[1mnpm start\\033[0m'",
+    "stylelint": "stylelint src/assets/styles/**/*.scss"
   },
   "repository": {
     "type": "git",
@@ -34,7 +35,11 @@
     "postcss-clean": "^1.1.0",
     "postcss-preset-env": "^6.5.0",
     "rimraf": "^2.6.3",
-    "sass": "^1.16.0"
+    "sass": "^1.16.0",
+    "stylelint": "^10.0.1",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-config-twbs-bootstrap": "^0.3.1",
+    "stylelint-scss": "^3.6.1"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.8.1",
