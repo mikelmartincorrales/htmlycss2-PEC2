@@ -1,13 +1,13 @@
-blockquote{
-    padding: 20px 25px;
-    background-color: $secondary-color;
-    border-left: 4px solid $primary-color;
-    font-style: italic;
-    font-size: 1.1rem;
+blockquote {
+  padding: 20px 25px;
+  font-size: 1.1rem;
+  font-style: italic;
+  background-color: $secondary-color;
+  border-left: 4px solid $primary-color;
 }
 
-.discography{
-    small{
-        float: right;
-    }
+.discography {
+  & small{
+    float: right;
+  }
 }

@@ -1,7 +1,7 @@
-$font-family-title: "Fjalla One", sans-serif;
-$font-family: "Noto Sans", "Times New Roman", sans-serif;
+$font-family-title: "Fjalla One", sans-serif !default;
+$font-family: "Noto Sans", "Times New Roman", sans-serif !default;
 
-$primary-color: #252525;
-$secondary-color: #e2e2e2;
-$link-color: #333333;
-$link-hover-color: #616161;
+$primary-color: #252525 !default;
+$secondary-color: #e2e2e2 !default;
+$link-color: #333 !default;
+$link-hover-color: #616161 !default;
